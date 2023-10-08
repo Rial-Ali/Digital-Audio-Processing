@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import IPython.display as ipd
 
 # %% Load audio file
-file_name = 'debussy.wav'
+file_name = '../debussy.wav'
 signal, sr = librosa.load(file_name, sr=None)
 
 print(f"the audio file contain sr : {sr}, samples : {len(signal)}")
