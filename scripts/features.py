@@ -166,7 +166,7 @@ plt.plot(t, ban_signal, color='b')
 plt.title('freguency Domin Features --->Bandwidth (Spectral spread)')
 plt.show()
 
-# %% Frequenct-time Domin Features
+# %% Frequency-time Domin Features
 
 # %%% Spectrogram
 ton_spec = librosa.stft(
@@ -187,7 +187,7 @@ def plot_spectrogram(Y, sr, hop_length, y_axis='linear'):
                              x_axis='time',
                              y_axis=y_axis)
     plt.colorbar(format='%+2.f')
-    plt.title('Frequenct-time Domin Features --->Spectrogram')
+    plt.title('freguency-time Domin Features --->Spectrogram')
 
 
 # Log-frequency spectrogram
@@ -208,7 +208,7 @@ librosa.display.specshow(log_mel_spectrogram,
                          x_axis='time',
                          y_axis='mel')
 plt.colorbar(format='%+2.f')
-plt.title('Frequenct-time Domin Features --->Mel Spectrogram')
+plt.title('freguency-time Domin Features --->Mel Spectrogram')
 
 plt.show()
 
@@ -222,7 +222,7 @@ librosa.display.specshow(mfccs,
                          sr=sr,
                          x_axis='time')
 plt.colorbar(format='%2f')
-plt.title('Frequenct-time Domin Features --->MFCCs')
+plt.title('freguency-time Domin Features --->MFCCs')
 
 plt.show()
 
@@ -236,7 +236,7 @@ librosa.display.specshow(delta_mfccs,
                          sr=sr,
                          x_axis='time')
 plt.colorbar(format='%2f')
-plt.title('Frequenct-time Domin Features --->delta_mfccs')
+plt.title('freguency-time Domin Features --->delta_mfccs')
 
 plt.show()
 
@@ -246,6 +246,6 @@ librosa.display.specshow(delta2_mfccs,
                          sr=sr,
                          x_axis='time')
 plt.colorbar(format='%2f')
-plt.title('Frequenct-time Domin Features --->delta_mfccs2')
+plt.title('freguency-time Domin Features --->delta_mfccs2')
 
 plt.show()
