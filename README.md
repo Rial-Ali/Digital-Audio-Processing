@@ -4,7 +4,7 @@ Scripts to process digital signal(Audio).
 ### features.py
 This script extracts features from audio.
 it extracts time-domain, frequency-domain, and frequency-time-domain features.
-it is inspired by Valerio Velardo's list on YouTube [Valerio Velardo list](Audio Signal Processing for Machine Learning),
+it is inspired by Valerio Velardo's playlist on YouTube [Valerio Velardo list](https://www.youtube.com/playlist?list=PL-wATfeyAMNqIee7cH3q1bh4QJFAaeNv0),
 and his code on github[Valerio Velardo code](https://github.com/musikalkemist/AudioSignalProcessingForML)
 
 #### time-domain features:
